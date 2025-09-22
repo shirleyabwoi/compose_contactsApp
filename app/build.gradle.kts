@@ -69,6 +69,8 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
     implementation("androidx.compose.runtime:runtime-livedata")
     ksp("androidx.room:room-compiler:2.7.2")
+    implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("com.google.accompanist:accompanist-permissions:0.32.0")
 }
 
 ksp {
